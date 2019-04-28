@@ -1,4 +1,4 @@
 // ResultScreen.js
 import React from 'react';
-const resultScreen = () => (<div className="result-screen">3124</div>);
+const resultScreen = (props) => (<div className="result-screen">{props.children}</div>);
 export default resultScreen;

@@ -1,5 +1,5 @@
 // ComputationScreen.js
 
 import React from 'react';
-const computationScreen = () => (<div className="computation-screen">3000+100+20+4</div>);
+const computationScreen = (props) => (<div className="computation-screen">{props.children}</div>);
 export default computationScreen;

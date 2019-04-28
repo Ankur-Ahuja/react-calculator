@@ -1,4 +1,4 @@
 // KeypadRow.js
 import React from 'react';
-const KeypadRow = () => (<div className="keypad__row">row</div>);
+const KeypadRow = (props) => (<div className="keypad__row">{props.children}</div>);
 export default KeypadRow;
